@@ -18,12 +18,12 @@
     </g>
     <g id="wOne"><use xlink:href="#gO" href="#gO"/><use xlink:href="#gN" href="#gN" x="88"/><use xlink:href="#gE" href="#gE" x="176"/></g>
   </defs>
-  <g fill="#1B2A5A">
-    <rect x="8" y="8" width="644" height="296" fill="none" stroke="#1B2A5A" stroke-width="13"/>
+  <g fill="#041E42">
+    <rect x="8" y="8" width="644" height="296" fill="none" stroke="#041E42" stroke-width="13"/>
     <g transform="translate(42,38) scale(1.19)"><use xlink:href="#wRental" href="#wRental"/></g>
     <g transform="translate(46,192) scale(0.62)"><use xlink:href="#g1" href="#g1"/><use xlink:href="#g9" href="#g9" x="48"/></g>
     <g transform="translate(534,192) scale(0.62)"><use xlink:href="#g9" href="#g9"/><use xlink:href="#g6" href="#g6" x="72"/></g>
-    <rect x="202" y="182" width="256" height="152" fill="#FFFFFF" stroke="#1B2A5A" stroke-width="13"/>
+    <rect x="202" y="182" width="256" height="152" fill="#FFFFFF" stroke="#041E42" stroke-width="13"/>
     <g transform="translate(228,215) scale(0.85)"><use xlink:href="#wOne" href="#wOne"/></g>
     <text x="644" y="350" text-anchor="middle" font-size="26" font-family="Arial, sans-serif">&#174;</text>
   </g>

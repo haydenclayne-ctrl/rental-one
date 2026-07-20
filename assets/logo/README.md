@@ -1,6 +1,17 @@
 # Logo Assets
 
-Faithful **vector reproductions** of the Rental One lockup, rebuilt from the provided logo artwork for layout and digital use. For production (print, vehicle wraps, embroidery), use the original master artwork files — never auto-trace or re-export these.
+## Master rasters (provided artwork — the source of truth)
+
+| File | Use |
+|---|---|
+| `rental-one-logo-white-on-navy.png` | Provided master, white lockup on Rental One Navy (1254×1254) |
+| `rental-one-logo-navy-transparent.png` | Navy lockup on transparent, derived pixel-exact from the master — light backgrounds |
+
+The logo navy measures **`#041E42` (Pantone 282 C)** — this is the value the brand palette is built on.
+
+## Vector reproductions (layout/digital use)
+
+Faithful SVG rebuilds of the lockup for scalable layout work. For production (print, vehicle wraps, embroidery), prefer original vector master artwork if/when available — never auto-trace these.
 
 | File | Use |
 |---|---|

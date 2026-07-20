@@ -6,8 +6,8 @@
     <path id="gN" d="M0 0 H26 L50 44 V0 H76 V100 H50 L26 56 V100 H0 Z"/>
     <path id="gO" fill-rule="evenodd" d="M14 0 H62 L76 14 V86 L62 100 H14 L0 86 V14 Z M30 26 H46 L50 30 V70 L46 74 H30 L26 70 V30 Z"/>
   </defs>
-  <g fill="#1B2A5A">
-    <rect x="7" y="7" width="306" height="186" fill="none" stroke="#1B2A5A" stroke-width="12"/>
+  <g fill="#041E42">
+    <rect x="7" y="7" width="306" height="186" fill="none" stroke="#041E42" stroke-width="12"/>
     <g transform="translate(40,50)"><use xlink:href="#gO" href="#gO"/><use xlink:href="#gN" href="#gN" x="88"/><use xlink:href="#gE" href="#gE" x="176"/></g>
   </g>
 </svg>

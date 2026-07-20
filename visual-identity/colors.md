@@ -6,9 +6,9 @@ Navy and white are the brand. Everything else supports them — quietly, in smal
 
 | Name | HEX | RGB | CMYK | Pantone | Role |
 |---|---|---|---|---|---|
-| Rental One Navy | `#1B2A5A` | 27 42 90 | 100/85/30/25 | 534 C | The brand's home — dominates every application |
+| Rental One Navy | `#041E42` | 4 30 66 | 100/85/40/50 | 282 C | The brand's home — dominates every application |
 | Signal White | `#FFFFFF` | 255 255 255 | 0/0/0/0 | Paper | Co-primary, not an accent |
-| Midnight | `#0D1630` | 13 22 48 | 100/90/40/55 | 282 C | Deep grounds, dark environments |
+| Midnight | `#061024` | 6 16 36 | 100/85/45/70 | CMYK build (no Pantone; print from CMYK) | Deep grounds, dark environments |
 
 ## Secondary & accent
 
@@ -34,6 +34,6 @@ True grayscale (`#FFF / #E6E6E6 / #B3B3B3 / #808080 / #4D4D4D / #000`) is for on
 
 Weighting: **Navy 55 · White 30 · Midnight 10 · Steel ≤5 · Orange ≤5.**
 
-- White on Navy passes WCAG AA/AAA at all sizes (12.4:1)
+- White on Navy passes WCAG AA/AAA at all sizes (16.5:1)
 - Body text on white uses Carbon or Navy — never Gunmetal below 18 px
 - Signal Orange is for graphics and large display type only, never body text

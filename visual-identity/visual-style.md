@@ -8,7 +8,7 @@ Documentary, not stock.
 
 **No:** stock handshakes, models pointing at clipboards, warm filters/HDR/vignettes, cluttered or unsafe or unbranded jobsites.
 
-**Treatment:** full color runs cool and slightly desaturated (−10 to −20%). Duotone (covers, dividers) maps shadows → Midnight `#0D1630`, highlights → Steel Blue `#4F6DA8`. Text zones over photos get a 40–60% navy scrim.
+**Treatment:** full color runs cool and slightly desaturated (−10 to −20%). Duotone (covers, dividers) maps shadows → Midnight `#061024`, highlights → Steel Blue `#4F6DA8`. Text zones over photos get a 40–60% navy scrim.
 
 ## Graphic devices
 

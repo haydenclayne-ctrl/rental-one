@@ -10,7 +10,7 @@ A project support company: equipment rentals, temporary infrastructure, labor so
 
 | | |
 |---|---|
-| Primary color | Rental One Navy `#1B2A5A` (PMS 534 C) |
+| Primary color | Rental One Navy `#041E42` (PMS 282 C) |
 | Co-primary | White `#FFFFFF` |
 | Accent (≤5%) | Signal Orange `#F26A21` (PMS 165 C) |
 | Display type | Industry Bold/Black, all caps (alts: United Sans, Tungsten; web-safe Arial Bold) |
