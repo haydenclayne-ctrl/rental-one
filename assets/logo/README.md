@@ -1,25 +1,15 @@
 # Logo Assets
 
-## Master rasters (provided artwork — the source of truth)
+The official Rental One logo files, exactly as provided by the owner ("R1 Logo" and "R1 Logo 2"). These are the only approved logo artwork — do not redraw, recreate, re-trace, or substitute reproductions.
 
-| File | Use |
-|---|---|
-| `rental-one-logo-white-on-navy.png` | Provided master, white lockup on Rental One Navy (1254×1254) |
-| `rental-one-logo-navy-transparent.png` | Navy lockup on transparent, derived pixel-exact from the master — light backgrounds |
+| File | Source file | Description |
+|---|---|---|
+| `r1-logo.png` | R1 Logo | White lockup on Rental One Navy field (1254×1254) — dark/navy applications |
+| `r1-logo-2.png` | R1 Logo 2 | Navy lockup on light background (1254×1254) — light applications |
 
-The logo navy measures **`#041E42` (Pantone 282 C)** — this is the value the brand palette is built on.
+Notes:
 
-## Vector reproductions (layout/digital use)
-
-Faithful SVG rebuilds of the lockup for scalable layout work. For production (print, vehicle wraps, embroidery), prefer original vector master artwork if/when available — never auto-trace these.
-
-| File | Use |
-|---|---|
-| `rental-one-lockup-navy.svg` | Primary lockup, navy — light backgrounds |
-| `rental-one-lockup-white-on-navy.svg` | Primary lockup, white on navy (preview background rect included) |
-| `rental-one-onebox-navy.svg` | ONE-box secondary mark, navy — light backgrounds |
-| `rental-one-onebox-white-on-navy.svg` | ONE-box secondary mark, white on navy |
-
-Usage rules (clear space, minimum sizes, backgrounds, prohibitions) live in [`../../brand-guidelines/logo.md`](../../brand-guidelines/logo.md).
-
-Note: the concept-stage SVGs in `~/Documents/Rental One/output/brand-assets/` (coal/orange palette) predate the final logo and palette — do not use them.
+- The logo navy measures **`#041E42` (Pantone 282 C)** — the brand palette is built on this value.
+- `r1-logo-2.png` has its light checkerboard background baked into the pixels (no alpha channel). For placements needing true transparency, request a transparent-background export of the master artwork rather than editing this file.
+- Usage rules (clear space, minimum sizes, backgrounds, prohibitions): [`../../brand-guidelines/logo.md`](../../brand-guidelines/logo.md).
+- The concept-stage SVGs in `~/Documents/Rental One/output/brand-assets/` (coal/orange palette) predate the final logo — do not use them.

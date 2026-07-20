@@ -2,7 +2,7 @@
 
 The Rental One logo is a framed industrial lockup: the RENTAL wordmark in blocky octagonal capitals, the ONE box breaking the bottom keyline, and the establishing date split "19 / 96" at either side, with the ® mark. It reads like a stamped equipment plate — permanent, load-rated, certified.
 
-**The logo is fixed.** Never redraw, retype, auto-trace, or reinterpret it. `../assets/logo/` contains faithful vector reproductions for layout and digital use; production (print, wraps, embroidery) uses master artwork files.
+**The logo is fixed.** Never redraw, retype, auto-trace, or reinterpret it. `../assets/logo/` contains the owner-provided logo files — the only approved artwork: `r1-logo.png` (white on navy) and `r1-logo-2.png` (navy on light).
 
 ## Anatomy
 
