@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 200">
+  <!-- Rental One ONE-box secondary mark — white on Rental One Navy (background rect included for preview; remove for transparent use).
+       For avatars, favicons, decals, small embroidery where the full lockup falls below minimum size. -->
+  <rect width="320" height="200" fill="#1B2A5A"/><defs>
+    <path id="gE" d="M0 0 H64 V26 H26 V37 H56 V63 H26 V74 H64 V100 H0 Z"/>
+    <path id="gN" d="M0 0 H26 L50 44 V0 H76 V100 H50 L26 56 V100 H0 Z"/>
+    <path id="gO" fill-rule="evenodd" d="M14 0 H62 L76 14 V86 L62 100 H14 L0 86 V14 Z M30 26 H46 L50 30 V70 L46 74 H30 L26 70 V30 Z"/>
+  </defs>
+  <g fill="#FFFFFF">
+    <rect x="7" y="7" width="306" height="186" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+    <g transform="translate(40,50)"><use xlink:href="#gO" href="#gO"/><use xlink:href="#gN" href="#gN" x="88"/><use xlink:href="#gE" href="#gE" x="176"/></g>
+  </g>
+</svg>

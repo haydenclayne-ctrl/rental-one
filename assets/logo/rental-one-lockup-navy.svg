@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 380">
+  <!-- Rental One primary lockup — navy on light backgrounds.
+       Faithful digital reproduction for layout/digital use; production uses master artwork. -->
+  <defs>
+    <path id="gR" fill-rule="evenodd" d="M0 0 H72 V58 H50 L72 100 H44 L26 66 V100 H0 Z M26 22 H46 V36 H26 Z"/>
+    <path id="gE" d="M0 0 H64 V26 H26 V37 H56 V63 H26 V74 H64 V100 H0 Z"/>
+    <path id="gN" d="M0 0 H26 L50 44 V0 H76 V100 H50 L26 56 V100 H0 Z"/>
+    <path id="gT" d="M0 0 H72 V26 H49 V100 H23 V26 H0 Z"/>
+    <path id="gA" fill-rule="evenodd" d="M20 0 H56 L76 100 H50 L44 78 H32 L26 100 H0 Z M34 24 H42 L46 56 H30 Z"/>
+    <path id="gL" d="M0 0 H26 V74 H64 V100 H0 Z"/>
+    <path id="gO" fill-rule="evenodd" d="M14 0 H62 L76 14 V86 L62 100 H14 L0 86 V14 Z M30 26 H46 L50 30 V70 L46 74 H30 L26 70 V30 Z"/>
+    <path id="g1" d="M12 0 H40 V100 H12 V30 H0 V12 Z"/>
+    <path id="g9" fill-rule="evenodd" d="M0 0 H52 L64 12 V100 H38 V64 H0 Z M24 24 H40 V40 H24 Z"/>
+    <g id="g6"><use xlink:href="#g9" href="#g9" transform="rotate(180 32 50)"/></g>
+    <g id="wRental">
+      <use xlink:href="#gR" href="#gR"/><use xlink:href="#gE" href="#gE" x="84"/><use xlink:href="#gN" href="#gN" x="160"/>
+      <use xlink:href="#gT" href="#gT" x="248"/><use xlink:href="#gA" href="#gA" x="332"/><use xlink:href="#gL" href="#gL" x="420"/>
+    </g>
+    <g id="wOne"><use xlink:href="#gO" href="#gO"/><use xlink:href="#gN" href="#gN" x="88"/><use xlink:href="#gE" href="#gE" x="176"/></g>
+  </defs>
+  <g fill="#1B2A5A">
+    <rect x="8" y="8" width="644" height="296" fill="none" stroke="#1B2A5A" stroke-width="13"/>
+    <g transform="translate(42,38) scale(1.19)"><use xlink:href="#wRental" href="#wRental"/></g>
+    <g transform="translate(46,192) scale(0.62)"><use xlink:href="#g1" href="#g1"/><use xlink:href="#g9" href="#g9" x="48"/></g>
+    <g transform="translate(534,192) scale(0.62)"><use xlink:href="#g9" href="#g9"/><use xlink:href="#g6" href="#g6" x="72"/></g>
+    <rect x="202" y="182" width="256" height="152" fill="#FFFFFF" stroke="#1B2A5A" stroke-width="13"/>
+    <g transform="translate(228,215) scale(0.85)"><use xlink:href="#wOne" href="#wOne"/></g>
+    <text x="644" y="350" text-anchor="middle" font-size="26" font-family="Arial, sans-serif">&#174;</text>
+  </g>
+</svg>
