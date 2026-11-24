@@ -9,13 +9,13 @@ Machine-readable tokens: `tokens.json` and `tokens.css` in this folder. Inconsis
 
 ## 1. What this is, and what it is not
 
-- **This company** is Rental One (RentalOne LLC, est. 1996) — a Cotton Co operating company, owned by High Cotton Capital. Positioning is **mission support, not equipment rental.** It supplies equipment, temporary infrastructure, labor, logistics, and FF&E from mobilization through completion, for commercial construction, industrial, manufacturing, general contractors, government, healthcare, education, and corporate facilities.
+- **This company** is Rental One (RentalOne LLC) — a Cotton Co operating company, owned by High Cotton Capital. Positioning is **mission support, not equipment rental.** It supplies equipment, temporary infrastructure, labor, logistics, and FF&E from mobilization through completion, for commercial construction, industrial, manufacturing, general contractors, government, healthcare, education, and corporate facilities. The repo states “est. 1996”; that year was not independently verified in this pass and should not be treated as approved copy until confirmed.
 - **Canonical brand source:** this GitHub repo (`brand-guidelines/`, `visual-identity/`, `CLAUDE.md`, owner-provided logos in `assets/logo/`). The live marketing site at [rentaloneteam.com](https://rentaloneteam.com) already implements those tokens in `css/styles.css` (the stylesheet itself cites `rental-one/visual-identity` as the source of truth). The website **codebase is not in this GitHub account**.
 - **Endorsement:** “A Cotton Co Company,” in small letterspaced caps on corporate materials only — never locked into the logo, never inside its clear space, never a co-branded mark.
 - **Not** High Cotton Capital corporate. Never import HCC Navy `#313E49`, HCC Gold `#CEA154`, Rajdhani, or the stag / CI badge.
 - **Not** Cotton Co’s own black/gold identity. The parent relationship is endorsement type only.
 - **Not** Blackhorn Global, Founders Ranch / High Cotton lifestyle, Roof Co Ventures, SE Roofing, Command, or Double Creek Ranch. Do not import those palettes, faces, or marks.
-- **Not** the unrelated “Rental One” equipment company in Colleyville, Texas, acquired by Texas First Rentals in 2022, or RentalShare (named in older HCC notes as a marketplace). This system is only for Hayden’s Rental One / rentaloneteam.com.
+- **Not** the unrelated “Rental One” equipment company in Colleyville, Texas, acquired by Texas First Rentals in 2022, or RentalShare (named in older HCC notes as a marketplace). This system is only for Hayden’s Rental One / rentaloneteam.com (that “Hayden’s” wording is fine in this internal doc). Public pages, quote forms, cards, and signatures should not make Hayden the named contact — see Voice & copy.
 - **Not** a request to restyle the brand. The logo is fixed artwork. The palette, type roles, chamfer, keyline, and plate are already decided.
 
 ---
@@ -35,15 +35,29 @@ If the written guidelines and the live CSS disagree, the written guidelines win 
 
 ## 3. Brand direction
 
-Rental One should feel like a **premium industrial operator** — strong, clean, modern, dependable, timeless. Think stamped equipment plates, staged yards, and contract-ready paperwork. It should never feel cheap, cartoonish, generic, playful, rustic, trend-driven, or busy.
-
-The identity communicates reliability, preparedness, precision, professionalism, confidence, operational excellence, execution, and partnership.
+Rental One should feel like an **industrial operator** — strong, clean, modern, dependable, timeless. Think stamped equipment plates, staged yards, and contract-ready paperwork. It should never feel cheap, cartoonish, generic, playful, rustic, trend-driven, or busy.
 
 **Default everywhere:** a navy field, a white logo, more white space than feels necessary. Navy dominates about 55% of any layout; white is the co-primary (~30%); Midnight about 10%; Steel Blue and Signal Orange each stay at or under 5%. Gold, cream, charcoal-warm, and other family palettes have no place here.
 
-**Tagline:** “One Source. Every Phase.” Campaign alternates, one per composition, never stacked: “Mobilize. Execute. Deliver.” · “Built to Keep Projects Moving.” · “Project Support, Delivered.” The tagline sits outside the logo’s clear space, in display caps, at no more than 25% of logo width, and is never locked into the artwork.
+### Voice & copy
 
-**Voice:** concise, confident, concrete. Lead with outcomes, short sentences, active voice, specifics over superlatives. No hype, no exclamation points, no buzzwords, no hedging, no humor at the trade’s expense. The brand never shouts.
+Voice: concise, confident, concrete. Lead with outcomes, short sentences, active voice, specifics over superlatives. No hype, no exclamation points, no buzzwords, no hedging, no humor at the trade’s expense. The brand never shouts.
+
+**Elevator** (tightened from `messaging.md`; the “not just fill rental orders” construction is dropped):
+
+> Rental One is a project support company. Equipment, temporary infrastructure, labor, logistics, and FF&E — one partner from mobilization to completion. Contractors and agencies call us to solve operational problems, not to place a rental order.
+
+**Short boilerplate** (omit an unverified founding year until it is confirmed):
+
+> Rental One provides equipment, temporary infrastructure, labor, logistics, and FF&E from mobilization through completion. A Cotton Co company.
+
+**Tagline:** “One Source. Every Phase.” Campaign alternates, **one per composition, never stacked.** “Mobilize. Execute. Deliver.” is fine alone; do not stack it with other three-part lines (“Built to Keep Projects Moving.” / “Project Support, Delivered.”) in the same composition. The tagline sits outside the logo’s clear space, in display caps, at no more than 25% of logo width, and is never locked into the artwork.
+
+**Public point of contact** is Pete Bell, not Hayden (per copy lead, pending Hayden confirmation). “Hayden’s Rental One” is fine in this internal design-system doc for disambiguation. Public pages, quote forms, cards, and signatures should not make Hayden the named contact.
+
+If “jobsite campus” appears, prefer “Temporary offices and storage on an active jobsite,” or stay within the camp-rule limits already in this document.
+
+Cotton Co’s `portfolio.md` still titles the sector “Equipment Rental.” That line should be retitled **Project support** (per copy lead, pending Hayden confirmation). That change belongs in the Cotton Co repo — do not edit `portfolio.md` from this PR, and do not visually mix Cotton Co black/gold into Rental One.
 
 ---
 

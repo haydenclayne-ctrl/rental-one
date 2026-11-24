@@ -22,7 +22,7 @@ Tags: **REFINEMENT** (implementation cleanup that preserves the look) or **BRAND
 |---|---|
 | [haydenclayne-ctrl/rental-one](https://github.com/haydenclayne-ctrl/rental-one) (public) | The brand repo. Guidelines + two logo PNGs. No website code, no token files (until this proposal), no vectors. |
 | [rentaloneteam.com](https://rentaloneteam.com) | The live marketing site. Implements the written tokens closely. Source is not in this GitHub account. |
-| cotton-co, high-cotton-capital | Parent context and endorsement only. Cotton Co’s `portfolio.md` still describes Rental One as “Equipment Rental,” which lags the “mission support, not equipment rental” position. |
+| cotton-co, high-cotton-capital | Parent context and endorsement only. Cotton Co’s `portfolio.md` still describes Rental One as “Equipment Rental,” which lags the “mission support / project support” position. Retitle that sector line to **Project support** (per copy lead, pending Hayden confirmation) in the Cotton Co repo — not in this one, and not on `main`. |
 
 ---
 
@@ -55,7 +55,8 @@ The gaps are production assets and adoption details, not a missing direction. Th
 ### Components, layout, engineering
 
 11. **The website is not in the repo.** Tokens on the live site can already drift from the markdown, and there is no shared package to keep them together.
-12. **Cotton Co / HCC copy is stale.** Cotton Co still headlines Rental One as “Equipment Rental.” Older HCC notes also list a “RentalShare” marketplace; that is out of scope here and must not be visually mixed in.
+12. **Cotton Co / HCC copy is stale.** Cotton Co still headlines Rental One as “Equipment Rental.” Retitle it **Project support** (per copy lead, pending Hayden confirmation) in Cotton Co `portfolio.md` — do not edit that file from this PR or on `main`. Older HCC notes also list a “RentalShare” marketplace; that is out of scope here and must not be visually mixed in.
+13. **Copy cleanup (from the 24 November copy-lead review).** Tighten the elevator to “Contractors and agencies call us to solve operational problems, not to place a rental order.” Keep “Mobilize. Execute. Deliver.” as a standalone campaign line; do not stack it with other three-part lines. The public POC is Pete Bell, not Hayden (per copy lead, pending Hayden confirmation). Do not treat “est. 1996” as approved copy until it is confirmed.
 13. Shadows and radii are correctly mostly absent. Do not “improve” the UI with another product’s card shadows.
 
 ### Imagery (including the camp rule)
@@ -114,9 +115,9 @@ Promote or replace the live-only hexes (`steel-on-dark`, button hovers, form err
 
 Decide where the rentaloneteam.com source lives, whether it should be added to this account, and who updates tokens when the guidelines change. Until then, treat this proposal plus `visual-identity/` as the brief, and the live CSS as the implementation that must be checked against it.
 
-### 6. Align parent-company copy — REFINEMENT, in the Cotton Co / HCC repos, not here
+### 6. Align parent-company and public copy — REFINEMENT (copy), in the Cotton Co / HCC repos where noted, not on this `main`
 
-Update Cotton Co’s portfolio line so it no longer leads with “Equipment Rental.” Do not visually mix Cotton Co black/gold or HCC marks into Rental One.
+Update Cotton Co’s portfolio line to **Project support** (per copy lead, pending Hayden confirmation). Do not visually mix Cotton Co black/gold or HCC marks into Rental One. On Rental One itself: use the tightened elevator; keep “Mobilize. Execute. Deliver.” unstacked; list Pete Bell as the public POC on public pages, quote forms, cards, and signatures (per copy lead, pending Hayden confirmation). Do not publish an unverified founding year as approved copy.
 
 ---
 
