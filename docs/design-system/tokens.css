@@ -1,0 +1,113 @@
+/* Rental One tokens — PROPOSAL only, 2026-11-24, America/Chicago.
+   Extracted from haydenclayne-ctrl/rental-one (visual-identity/colors.md,
+   typography.md, visual-style.md, applications.md; logos in assets/logo/)
+   and from the live site css/styles.css at https://rentaloneteam.com
+   (audited 24 November 2026). Not owner-approved.
+   Prefix: --r1-
+   Do not mix High Cotton Capital, Cotton Co black/gold, Blackhorn,
+   Founders Ranch, or Roof Co values into this file. */
+
+:root {
+  /* ── Primary ─────────────────────────────────────────────────────── */
+  --r1-navy: #041E42;            /* PMS 282 C. Canonical logo navy. Print is 282 C, not PMS 534 (see applications.md typo). */
+  --r1-white: #FFFFFF;           /* Signal White, co-primary */
+  --r1-midnight: #061024;        /* CMYK build, no Pantone. Deep grounds, duotone shadows. */
+
+  /* ── Secondary & accent ─────────────────────────────────────────── */
+  --r1-steel: #4F6DA8;           /* PMS 646 C. Eyebrows on light, charts, duotone highlights. Not 12px text on navy (3.22:1). */
+  --r1-steel-on-dark: #9AB1D9;   /* Live site eyebrow on dark. 7.61:1 on navy. Not yet in the written palette; proposed promotion. */
+  --r1-orange: #F26A21;          /* PMS 165 C. ≤5%. CTAs, one rule per composition. Never on the logo. 3.06:1 on white — not body text. */
+  --r1-orange-hover: #FF7A31;    /* Live primary button hover. Not in the written palette. */
+  --r1-navy-hover: #0A2E5C;      /* Live navy button hover. Not in the written palette. */
+  --r1-concrete: #C9CFD9;        /* Cool Gray 3 C. Dividers, plates, tables. */
+  --r1-error: #C24A0E;           /* Live form error. 4.91:1 on white. Not in the written palette. */
+
+  /* ── Neutrals (navy-biased, never warm) ─────────────────────────── */
+  --r1-fog: #F4F6FA;
+  --r1-mist: #D9DEE8;            /* Hero lead on dark, 14.06:1 on midnight */
+  --r1-gunmetal: #8B94A5;        /* Fails AA on white (3.05:1) and fog (2.82:1). Decorative, or mute on dark only (5.42:1 on navy). */
+  --r1-iron: #4A5262;            /* Muted body on light. 7.85:1 on white. */
+  --r1-carbon: #1C2027;          /* Body text on white. */
+
+  /* ── Type ───────────────────────────────────────────────────────── */
+  /* Industry is licensed (Adobe Fonts / MyFonts) but is not embedded on the live site.
+     Display currently falls back to Archivo at font-stretch 87%. */
+  --r1-font-display: "Industry", "Archivo", "United Sans", "Tungsten", Arial, sans-serif;
+  --r1-font-text: "Archivo", Roboto, Arial, sans-serif;
+  --r1-font-data: "IBM Plex Mono", Consolas, Menlo, monospace;
+
+  --r1-size-eyebrow: 12px;
+  --r1-leading-eyebrow: 16px;
+  --r1-tracking-eyebrow: 0.22em;
+  --r1-size-h1: 44px;            /* Written cap. Live site allows up to 58px. */
+  --r1-leading-h1: 48px;
+  --r1-tracking-h1: 0.015em;
+  --r1-size-h1-min: 34px;        /* Live fluid floor */
+  --r1-size-h2: 28px;
+  --r1-leading-h2: 32px;
+  --r1-tracking-h2: 0.02em;
+  --r1-size-h3: 19px;
+  --r1-leading-h3: 24px;
+  --r1-size-body: 16px;
+  --r1-leading-body: 26px;       /* Written 16/26. Live body is 16px / 1.625. */
+  --r1-measure: 65ch;
+  --r1-size-lead: 18px;
+  --r1-size-caption: 12.5px;
+  --r1-leading-caption: 18px;
+  --r1-size-button: 13px;        /* Live. Conflicts with "Industry never below 18px." */
+  --r1-tracking-button: 0.1em;
+  --r1-size-display-floor: 18px; /* Written floor for Industry, except the unresolved button exception. */
+
+  /* ── Space, layout, shape ───────────────────────────────────────── */
+  --r1-space-1: 8px;
+  --r1-space-2: 16px;
+  --r1-space-3: 24px;
+  --r1-space-4: 32px;
+  --r1-space-5: 40px;
+  --r1-space-6: 48px;
+  --r1-space-8: 64px;
+  --r1-space-10: 80px;
+  --r1-space-12: 96px;
+  --r1-space-15: 120px;
+
+  --r1-container: 1200px;
+  --r1-gutter: max(24px, 6vw);
+  --r1-header-h: 96px;
+  --r1-header-h-compact: 80px;
+  --r1-logo-min-digital: 120px;
+  --r1-tap-min: 48px;
+  --r1-scrim: 0.5;               /* 40–60% navy behind type on photos; 50% is the midpoint. */
+
+  --r1-chamfer: 18px;
+  --r1-chamfer-sm: 12px;
+  --r1-keyline: 3px;
+  --r1-rule-orange-width: 56px;
+  --r1-rule-orange-height: 4px;
+
+  /* ── Breakpoints (from the live CSS; not in the written guidelines) */
+  --r1-bp-phone: 640px;
+  --r1-bp-nav: 1020px;
+  --r1-bp-wide: 1400px;
+
+  /* ── Motion ─────────────────────────────────────────────────────── */
+  --r1-duration-fast: 0.18s;
+  --r1-duration-nav: 0.25s;
+  --r1-duration-reveal: 0.6s;
+  --r1-ease: ease;
+}
+
+@media (max-width: 1020px) {
+  :root { --r1-header-h: var(--r1-header-h-compact); }
+}
+
+@media (min-width: 1400px) {
+  :root { --r1-gutter: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --r1-duration-fast: 0.01s;
+    --r1-duration-nav: 0.01s;
+    --r1-duration-reveal: 0.01s;
+  }
+}
